@@ -1,0 +1,56 @@
+* {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    list-style: none;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+/* -------------------------------------------------------------------- */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 24px;
+
+}
+
+.button {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: solid 2px transparent;
+
+    background-color: #F25C05;
+}
+
+/*----------------------------jumbotro,-------------------------------------*/
+
+.jumbotron {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+}
